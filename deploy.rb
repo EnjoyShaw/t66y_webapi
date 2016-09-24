@@ -8,7 +8,7 @@ set :deploy_to, '/var/www/t66y_webapi'
 set :user, 'root'
 set :port, '22'
 set :forward_agent, false
-set :repository, 'git@10.16.177.235:shaw/ssmis_mobile.git'
+set :repository, 'git@github.com:EnjoyShaw/t66y_webapi.git'
 set :branch, 'master'
 set :shared_paths, %w(log)
 set :unicorn_pid, "#{deploy_to}/#{shared_path}/tmp/pids/unicorn.pid"
