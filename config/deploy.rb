@@ -3,7 +3,7 @@ require 'mina/git'
 require 'mina/rvm'
 require 'mina/unicorn'
 
-set :domain, 'lolipop.moe'
+set :domain, '106.187.102.62'
 set :deploy_to, '/var/www/t66y_webapi'
 set :user, 'root'
 set :port, '22'
