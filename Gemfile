@@ -1,0 +1,10 @@
+source 'https://rubygems.org/'
+gem 'rack', '~>1.5'
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'mina'
+gem 'mina-unicorn'
+gem 'unicorn'
+gem 'nokogiri'
+gem 'awesome_print'
+
